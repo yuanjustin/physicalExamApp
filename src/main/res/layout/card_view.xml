@@ -1,0 +1,59 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:clickable="true"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Name"
+                android:maxLines="1"
+                android:textColor="?android:attr/textColorHint"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brief"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:ems="10"
+                android:lines="10"
+                android:text="Name"
+                android:textColor="?android:attr/textColorSecondaryNoDisable" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            card_view:srcCompat="@android:drawable/btn_star_big_on" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

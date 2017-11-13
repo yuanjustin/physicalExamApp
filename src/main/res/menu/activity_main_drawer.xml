@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+<!--        <item
+            android:id="@+id/nav_gen"
+            android:icon="@drawable/gener"
+            android:title="一般情况" />-->
+        <item
+            android:icon="@drawable/lung"
+            android:title="呼吸系统" />
+        <item
+            android:icon="@drawable/heart"
+            android:title="心血管系统" />
+
+        <item
+            android:icon="@drawable/abdomen"
+            android:title="腹部" />
+        <item
+            android:id="@+id/nav_thyro"
+            android:icon="@drawable/brain"
+            android:title="神经系统" />
+        <item
+            android:id="@+id/nav_breast"
+            android:icon="@drawable/other"
+            android:title="其他系统" />
+    </group>
+
+    <item android:title="关于作者">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="支持开发者" />
+        </menu>
+    </item>
+
+</menu>

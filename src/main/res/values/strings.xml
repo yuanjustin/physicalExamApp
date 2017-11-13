@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">临床技能速查</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about">本app旨在帮助广大医学生在实际临床中能够快速查找临床操作的步骤，后续会推出药物速查，内外科疾病速查，检验检查速查等。若本app对您有帮助，可以点击这里支付宝支持开发者。
+    本app内容来源于网络，图片来源于维基。</string>
+</resources>
